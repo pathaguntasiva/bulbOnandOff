@@ -1,0 +1,18 @@
+<html>
+    <head></head>
+    <body>
+        <div>
+            <img src="white.jpg" id="image">
+            <button onclick="bulbOn()">Switch On</button>
+            <button onclick="bulbOff()">Switch Off</button>
+        </div>
+    </body>
+    <script>
+        function bulbOn() {
+            document.getElementById('image').src="white.jpg";
+        }
+        function bulbOff() {
+            document.getElementById('image').src="yellow.jpg";
+        }
+    </script>
+</html>
